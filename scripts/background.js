@@ -20,10 +20,16 @@ function levenshteinDistance(s1, s2) {
 
 const knownHosts = [
     'wikipedia.org',
-    // 'wikimedia.org',
+    'wikimedia.org',
     'github.com',
-    'gitlab.com'
-]
+    'gitlab.com',
+    'google.com',
+    'gmail.com',
+    'youtube.com',
+    'leoxiong.com',
+    'leoxiong.dev',
+    'console.cloud.google.com'
+].sort((a, b) => b.length - a.length)
 
 
 chrome.webRequest.onBeforeRequest.addListener(function (details) {
