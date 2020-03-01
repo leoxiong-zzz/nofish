@@ -28,7 +28,8 @@ const knownHosts = [
     'youtube.com',
     'leoxiong.com',
     'leoxiong.dev',
-    'console.cloud.google.com'
+    'console.cloud.google.com',
+    'g.co'
 ].sort((a, b) => b.length - a.length)
 
 
